@@ -365,6 +365,24 @@ button {
     padding-bottom: 145px;
 }
 
+@media screen and (min-width: 1366px) and (max-width: 1440px) {
+    .banner_section {
+        padding-bottom: 240px;
+    }
+}
+
+@media screen and (min-width: 1445px) and (max-width: 1600px) {
+    .banner_section {
+        padding-bottom: 310px;
+    }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1919px) {
+    .banner_section {
+        padding-bottom: 400px;
+    }
+}
+
 .banner_taital {
     width: 100%;
     float: left;
