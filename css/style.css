@@ -362,16 +362,16 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    padding-bottom: 145px;
+    padding-bottom: 118px;
 }
 
-@media screen and (min-width: 1366px) and (max-width: 1440px) {
+@media screen and (min-width: 1360px) and (max-width: 1440px) {
     .banner_section {
-        padding-bottom: 240px;
+        padding-bottom: 179px;
     }
 }
 
-@media screen and (min-width: 1445px) and (max-width: 1600px) {
+@media screen and (min-width: 1441px) and (max-width: 1600px) {
     .banner_section {
         padding-bottom: 310px;
     }
@@ -380,6 +380,18 @@ button {
 @media screen and (min-width: 1601px) and (max-width: 1919px) {
     .banner_section {
         padding-bottom: 400px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .banner_section {
+        padding-bottom: 500px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .banner_section {
+        padding-bottom: 820px;
     }
 }
 
@@ -411,14 +423,15 @@ button {
 .read_bt a {
     width: 100%;
     float: left;
-    font-size: 16px;
-    color: #141414;
-    background-color: #ffffff;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(255, 255, 255, .1);
     text-align: center;
     padding: 10px 0px;
     border-radius: 30px;
-    margin-top: 50px;
+    margin-top: 30px;
     font-weight: 400;
+    border: 1px solid #ffffff;
 }
 
 .read_bt a:hover {
@@ -510,7 +523,7 @@ button {
 
 .about_taital_main {
     width: 100%;
-    padding-left: 100px;
+    padding-left: 60px;
     padding-top: 0px;
 }
 
@@ -519,20 +532,24 @@ button {
 }
 
 .about_taital {
-    width: 100%;
-    float: left;
-    font-size: 40px;
-    color: #1f1f1f;
+    font-size: 48px;
     font-weight: bold;
+    color: #333;
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+.about_subtitle {
+    font-size: 24px;
+    color: #666;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .about_text {
-    width: 100%;
-    float: left;
     font-size: 16px;
-    color: #1f1f1f;
-    margin: 0px;
-    padding-top: 40px;
+    line-height: 1.6;
+    color: #444;
 }
 
 .readmore_bt {
@@ -1061,4 +1078,46 @@ button {
     @media (max-width: 991.98px) {
         width: 100%;
     }
+}
+
+.custom_span {
+    background: white;
+    color: black;
+    border-radius: 100px;
+    padding: 0px 10px;
+}
+.custom_span_text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.blue_text {
+  color: #0066cc;
+  font-size: 3rem;
+}
+
+.yellow_text {
+  color: #ffd700;
+  font-size: 2.5rem;
+  background: linear-gradient(to right, #ffd700, #ff8c00);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 25px;
+  transition: background 0.3s ease;
+}
+
+.btn_detail {
+  width: 150px;
+  background-color: #ffd700;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.btn_detail:hover {
+  background-color: #000d10;
+  color: #ffffff;
 }

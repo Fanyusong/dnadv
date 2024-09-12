@@ -131,9 +131,6 @@
     .header_section {
         padding: 0px;
     }  
-    .banner_section {
-        padding-bottom: 500px;
-    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
