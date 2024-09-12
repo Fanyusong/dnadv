@@ -280,10 +280,12 @@
    <div class="footer_section layout_padding">
       <div class="container d-flex justify-content-center">
          <div class="contact_card">
-            <div class="input_btn_main w-100">
-               <input type="text" class="mail_text" placeholder="Enter your email" name="Enter your email">
-               <div class="subscribe_bt"><a href="#">Subscribe</a></div>
-            </div>
+            <form action="https://formspree.io/f/mpwaedzj" method="POST">
+               <div class="input_btn_main w-100">
+                  <input type="text" class="mail_text" placeholder="Enter your email" name="email">
+                  <div class="subscribe_bt"><a href="#" onclick="this.closest('form').submit(); return false;">Subscribe</a></div>
+               </div>
+            </form>   
             <div class="location_main">
                <div class="call_text"><img src="images/call-icon.png"></div>
                <div class="call_text"><a href="#">Call +84 38 846 3118</a></div>
